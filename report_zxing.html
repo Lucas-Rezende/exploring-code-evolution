@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitEvo - zxing</title>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</head>
+<body>
+	
+  <div style="width: 100%; max-width: 650px; margin: 0 auto; text-align: center; background: #FFFFF">
+	  <p><a href="https://github.com/andrehora/gitevo">GitEvo</a>, created at 2026-03-25 14:46:26 -0300</p>
+	  <hr>
+	  <h1 href="#1" style="font-size: 50px;">zxing</h1>
+   	<div id="chart-wrapper"></div>
+	  <hr>
+	  <p><a href="https://github.com/andrehora/gitevo">GitEvo</a>, created at 2026-03-25 14:46:26 -0300</p>
+  </div>
+
+  <script id="jsonData" type="application/json">
+    [
+   {
+      "title": "Lines of code (LOC)",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "data": [
+               0,
+               7872,
+               32730,
+               39209,
+               52606,
+               52214,
+               55893,
+               64678,
+               65780,
+               66356,
+               67332,
+               67236,
+               68288,
+               68099,
+               68543,
+               70430,
+               73479,
+               73710,
+               74003,
+               74254
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Java files",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "data": [
+               0,
+               70,
+               280,
+               303,
+               404,
+               386,
+               420,
+               471,
+               471,
+               477,
+               486,
+               489,
+               501,
+               499,
+               503,
+               507,
+               516,
+               515,
+               515,
+               517
+            ]
+         }
+      ]
+   },
+   {
+      "title": "LOC / Java files",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "data": [
+               0,
+               112.45714285714286,
+               116.89285714285714,
+               129.40264026402642,
+               130.2128712871287,
+               135.26943005181346,
+               133.07857142857142,
+               137.32059447983013,
+               139.66029723991508,
+               139.11111111111111,
+               138.54320987654322,
+               137.49693251533742,
+               136.30339321357286,
+               136.47094188376752,
+               136.26838966202783,
+               138.91518737672584,
+               142.40116279069767,
+               143.126213592233,
+               143.69514563106796,
+               143.6247582205029
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Production and test files",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "label": "production file",
+            "data": [
+               0,
+               59,
+               215,
+               232,
+               305,
+               284,
+               310,
+               355,
+               349,
+               355,
+               357,
+               355,
+               355,
+               354,
+               354,
+               355,
+               361,
+               361,
+               361,
+               362
+            ]
+         },
+         {
+            "label": "test file",
+            "data": [
+               0,
+               11,
+               65,
+               71,
+               99,
+               102,
+               110,
+               116,
+               122,
+               122,
+               129,
+               134,
+               146,
+               145,
+               149,
+               152,
+               155,
+               154,
+               154,
+               155
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Classes, interfaces, and records - 2026",
+      "indexAxis": "x",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "class_declaration",
+         "interface_declaration"
+      ],
+      "datasets": [
+         {
+            "data": [
+               531,
+               9
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Classes, interfaces, and records",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "label": "class_declaration",
+            "data": [
+               0,
+               79,
+               311,
+               335,
+               439,
+               401,
+               431,
+               500,
+               487,
+               492,
+               492,
+               494,
+               504,
+               501,
+               507,
+               516,
+               529,
+               529,
+               529,
+               531
+            ]
+         },
+         {
+            "label": "interface_declaration",
+            "data": [
+               0,
+               5,
+               11,
+               9,
+               9,
+               7,
+               10,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               8,
+               9,
+               9,
+               9,
+               9
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Methods",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "data": [
+               0,
+               291,
+               1284,
+               1427,
+               1879,
+               1850,
+               1983,
+               2434,
+               2505,
+               2511,
+               2555,
+               2538,
+               2576,
+               2563,
+               2580,
+               2686,
+               2832,
+               2838,
+               2849,
+               2864
+            ]
+         }
+      ]
+   },
+   {
+      "title": "LOC of methods (mean)",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "data": [
+               0,
+               13.7,
+               13.0,
+               14.0,
+               14.6,
+               15.1,
+               15.0,
+               14.5,
+               14.5,
+               14.6,
+               14.5,
+               14.6,
+               14.6,
+               14.6,
+               14.6,
+               14.5,
+               14.4,
+               14.4,
+               14.4,
+               14.4
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Conditionals - 2026",
+      "indexAxis": "x",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "if_statement",
+         "ternary_expression",
+         "switch_expression"
+      ],
+      "datasets": [
+         {
+            "data": [
+               2920,
+               293,
+               126
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Conditionals",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "label": "if_statement",
+            "data": [
+               0,
+               292,
+               1206,
+               1466,
+               2091,
+               2053,
+               2242,
+               2603,
+               2728,
+               2729,
+               2656,
+               2641,
+               2670,
+               2654,
+               2676,
+               2756,
+               2904,
+               2916,
+               2919,
+               2920
+            ]
+         },
+         {
+            "label": "ternary_expression",
+            "data": [
+               0,
+               23,
+               87,
+               110,
+               135,
+               158,
+               170,
+               232,
+               238,
+               237,
+               239,
+               233,
+               224,
+               219,
+               221,
+               238,
+               290,
+               291,
+               292,
+               293
+            ]
+         },
+         {
+            "label": "switch_expression",
+            "data": [
+               0,
+               2,
+               39,
+               47,
+               58,
+               61,
+               59,
+               73,
+               77,
+               77,
+               100,
+               108,
+               108,
+               110,
+               111,
+               119,
+               126,
+               126,
+               126,
+               126
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Loops - 2026",
+      "indexAxis": "x",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "for_statement",
+         "enhanced_for_statement",
+         "while_statement",
+         "do_statement"
+      ],
+      "datasets": [
+         {
+            "data": [
+               712,
+               213,
+               169,
+               27
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Loops",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "label": "for_statement",
+            "data": [
+               0,
+               136,
+               357,
+               449,
+               571,
+               501,
+               538,
+               640,
+               648,
+               652,
+               635,
+               641,
+               648,
+               647,
+               650,
+               670,
+               708,
+               710,
+               710,
+               712
+            ]
+         },
+         {
+            "label": "enhanced_for_statement",
+            "data": [
+               0,
+               3,
+               19,
+               28,
+               49,
+               132,
+               152,
+               197,
+               202,
+               202,
+               207,
+               205,
+               203,
+               199,
+               201,
+               205,
+               213,
+               214,
+               213,
+               213
+            ]
+         },
+         {
+            "label": "while_statement",
+            "data": [
+               0,
+               34,
+               72,
+               86,
+               131,
+               119,
+               126,
+               149,
+               155,
+               154,
+               154,
+               154,
+               154,
+               154,
+               154,
+               158,
+               169,
+               169,
+               169,
+               169
+            ]
+         },
+         {
+            "label": "do_statement",
+            "data": [
+               0,
+               2,
+               18,
+               19,
+               24,
+               22,
+               20,
+               24,
+               24,
+               25,
+               25,
+               25,
+               25,
+               25,
+               25,
+               25,
+               27,
+               27,
+               27,
+               27
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Exception statements - 2026",
+      "indexAxis": "x",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "throw_statement",
+         "try_statement"
+      ],
+      "datasets": [
+         {
+            "data": [
+               512,
+               185
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Exception statements",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "label": "throw_statement",
+            "data": [
+               0,
+               60,
+               239,
+               267,
+               367,
+               391,
+               407,
+               443,
+               461,
+               467,
+               476,
+               480,
+               481,
+               473,
+               472,
+               487,
+               510,
+               510,
+               511,
+               512
+            ]
+         },
+         {
+            "label": "try_statement",
+            "data": [
+               0,
+               21,
+               94,
+               119,
+               171,
+               143,
+               171,
+               189,
+               196,
+               198,
+               209,
+               181,
+               178,
+               178,
+               170,
+               170,
+               177,
+               178,
+               185,
+               185
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Comments - 2026",
+      "indexAxis": "x",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "line_comment",
+         "block_comment"
+      ],
+      "datasets": [
+         {
+            "data": [
+               3054,
+               1826
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Comments",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2007",
+         "2008",
+         "2009",
+         "2010",
+         "2011",
+         "2012",
+         "2013",
+         "2014",
+         "2015",
+         "2016",
+         "2017",
+         "2018",
+         "2019",
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025",
+         "2026"
+      ],
+      "datasets": [
+         {
+            "label": "line_comment",
+            "data": [
+               0,
+               354,
+               1612,
+               2077,
+               2409,
+               2191,
+               2231,
+               2657,
+               2681,
+               2720,
+               2763,
+               2793,
+               2848,
+               2859,
+               2869,
+               2943,
+               3015,
+               3026,
+               3048,
+               3054
+            ]
+         },
+         {
+            "label": "block_comment",
+            "data": [
+               0,
+               276,
+               901,
+               1069,
+               1359,
+               1312,
+               1414,
+               1578,
+               1586,
+               1600,
+               1663,
+               1667,
+               1731,
+               1720,
+               1727,
+               1753,
+               1814,
+               1820,
+               1822,
+               1826
+            ]
+         }
+      ]
+   }
+]
+  </script>
+
+  <script>		
+      try {
+
+        const jsonDataElement = document.getElementById('jsonData');
+        const jsonData = JSON.parse(jsonDataElement.textContent);
+        const chartWrapper = document.getElementById('chart-wrapper');
+
+        // Generate charts
+        jsonData.forEach((chartData, index) => {
+        
+        const hr = document.createElement('hr');
+        const br = document.createElement('br');
+        
+        const chartId = chartData.title.toLowerCase().replace(/\s+/g, '-');
+        const section = document.createElement('div');
+        const link = document.createElement('a');
+        section.id = chartId
+        link.href = `#${chartId}`;
+        link.textContent = '🔗';
+        link.style = 'all: unset; cursor: pointer;'
+
+        chartWrapper.appendChild(hr);
+        chartWrapper.appendChild(br);
+        chartWrapper.appendChild(link);
+        chartWrapper.appendChild(section);
+		  
+          // Create chart canvas
+          const canvas = document.createElement('canvas');
+          canvas.id = `chart-${index}`;
+          chartWrapper.appendChild(canvas);
+		  
+          // Create the chart
+          // Chart.register(ChartDataLabels);
+          new Chart(canvas, {
+            type: chartData.type,
+            data: {
+              labels: chartData.labels,
+              datasets: chartData.datasets,
+            },
+            options: {
+              indexAxis: chartData.indexAxis,
+              responsive: true,
+              scales: {
+                y: {
+                  beginAtZero: true
+                }
+              },
+              plugins: {
+                  colors: {
+                    enabled: true,
+                  },
+                  legend: {
+                    display: chartData.display_legend,
+                  },
+                  tooltip: {
+                    enabled: true,
+                    animation: false
+                  },
+                  title: {
+                    display: true,
+                    text: chartData.title,
+                    font: {
+                      size: 20
+                    }
+                  },
+                  subtitle: {
+                    display: true,
+                    text: chartData.subtitle,
+                  }
+              }
+            }
+          });
+        });
+      } catch (error) {
+        console.error('Error loading JSON data:', error);
+      }
+  </script>
+</body>
+</html>
